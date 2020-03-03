@@ -1,0 +1,135 @@
+@charset="utf-8";
+/*font-family: 'Zilla Slab', ;*/
+body,html{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family: 'Zilla Slab', ;
+}
+a, a:hover {
+	text-decoration: none;
+}
+
+.container-fluid {
+	padding: 0;
+}
+
+.separator{
+	height: 3px;
+	width: 5%;
+	border: none;
+	box-shadow: none;
+	background-color: #52FBFF;
+}
+/*header*/
+
+.header {
+	background: #FFA75E;
+	height: 70px;
+	line-height: 70px;
+}
+
+.logo{
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+	float: left;
+}
+
+.menu {
+	float: right;
+}
+
+.menu a {
+color: #ffffff;
+margin-right: 20px;
+}
+
+.menu a:hover {
+	color: #52FBFF
+}
+/*banniere*/
+
+.banner {
+	width: 100%;
+	max-width: 100%
+}
+
+.ban {
+	width: 100%;
+	max-width: 100%;
+	position: relative;
+}
+
+.ban img{
+	width: 100%;
+	max-width: 100%
+}
+
+.inner-banner{
+	position: absolute;
+	top: 40%;
+	width: 100%;
+	text-align: center;
+}
+
+.inner-banner h1{
+	color: #ffffff;
+	text-shadow: 1px 1px 20px #000000;
+}
+
+.inner-banner .btn-custon{
+	background-color: #FFA75E;
+	color:#ffffff;
+}
+.inner-banner .btn-custon:hover{
+	background-color: #52FBFF;
+	
+}
+/*about*/
+#about{
+	text-align: center;
+	padding-top: 10%;
+}
+.about article {
+	margin-top: 10%;
+	margin-bottom: 10%;
+
+}
+.about article h2{
+text-align: center;
+}
+/*portfolio*/
+.portfolio{
+	background-color: #eeeeee;
+	height: 800px;
+}
+
+#portfolio{
+	text-align: center;
+}
+
+.portfolio .item-folio{
+height: 280px;
+background: #52FBFF;
+}
+
+/*contact*/
+.footer{
+	background: #FFA75E;
+	height: 600px;
+}
+
+#contact {
+	color: #ffffff;
+	text-align: center;
+}
+
+.formulairecontact{
+	width: 500px;
+	display: block;
+	margin: 0 auto;
+}
